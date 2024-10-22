@@ -16,6 +16,7 @@ nome = input("Insira um nome: ")
 CPF = input("Insira um cpf: ")
 
 con.execute('INSERT INTO  alunos(nome,CPF) VALUES (?,?) ',(nome,CPF))
+con.execute(' UPDATE alunos SET nome = ? WHERE matricula = ?', ('fdp',10))
 consulta = con.execute('SELECT matricula,nome, CPF FROM alunos;')
 linhas = consulta.fetchall()
 
