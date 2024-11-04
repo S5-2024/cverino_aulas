@@ -13,9 +13,10 @@ if(response.status_code == 200):
   data = response.json()
 
   pais = data.get("country")
+  casos = data.get("cases")
   deaths = data.get("deaths")
   hoje = data.get("todayCases")
-  print(f"Covid no {pais}:    - mortes:{deaths}  - Casos de hoje:{hoje} ")
+  print(f"Covid no {pais}:  -casos: {casos}  - mortes: {deaths}  - Casos de hoje: {hoje} ")
 
 #Abrir em página
   # with open('response.json','w') as json_file:
