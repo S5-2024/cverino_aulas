@@ -1,0 +1,32 @@
+{
+    "updated": 1730761825339,
+    "country": "Brazil",
+    "countryInfo": {
+        "_id": 76,
+        "iso2": "BR",
+        "iso3": "BRA",
+        "lat": -10,
+        "long": -55,
+        "flag": "https://disease.sh/assets/img/flags/br.png"
+    },
+    "cases": 38743918,
+    "todayCases": 0,
+    "deaths": 711380,
+    "todayDeaths": 0,
+    "recovered": 36249161,
+    "todayRecovered": 0,
+    "active": 1783377,
+    "critical": 0,
+    "casesPerOneMillion": 179908,
+    "deathsPerOneMillion": 3303,
+    "tests": 63776166,
+    "testsPerOneMillion": 296146,
+    "population": 215353593,
+    "continent": "South America",
+    "oneCasePerPeople": 6,
+    "oneDeathPerPeople": 303,
+    "oneTestPerPeople": 3,
+    "activePerOneMillion": 8281.16,
+    "recoveredPerOneMillion": 168323.92,
+    "criticalPerOneMillion": 0
+}
